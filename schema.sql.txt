@@ -1,5 +1,5 @@
 create table aluno (
 	id serial PRIMARY KEY,
 	nome varchar (100),
-	prontuario varchar(50) UNIQUE not null
+	prontuario varchar(100) UNIQUE not null
 );
